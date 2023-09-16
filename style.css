@@ -1,0 +1,89 @@
+/* Setze die Hintergrundfarbe der gesamten Seite auf #323232 */
+body {
+    background-color: #323232;
+    font-family: 'Open Sans', sans-serif; /* Schriftart: Open Sans */
+    margin: 0;
+    color: white;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.none{
+  display: none;
+}
+
+.current{
+  margin-top: 50px;
+}
+
+h1{
+    text-align: center;
+}
+
+/* Stil für die Tabelle */
+table {
+    border-collapse: collapse; /* Trennlinien innerhalb der Zellen */
+}
+
+#content{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* Stil für die Zellen (td) */
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+td:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+table {
+    border-collapse: collapse;
+  }
+  table td {
+    border: 5px solid white; 
+  }
+  table tr:first-child td {
+    border-top: 0;
+  }
+  table tr td:first-child {
+    border-left: 0;
+  }
+  table tr:last-child td {
+    border-bottom: 0;
+  }
+  table tr td:last-child {
+    border-right: 0;
+  }
+
+button {
+    background-color: #00B0EF; /* Hintergrundfarbe des Buttons */
+    color: white; /* Textfarbe des Buttons */
+    padding: 10px 20px; /* Innenabstand des Buttons */
+    font-size: 16px; /* Schriftgröße des Buttons */
+    border: none; /* Kein Rahmen um den Button */
+    cursor: pointer; /* Zeige eine Hand, wenn der Mauszeiger über dem Button ist */
+    margin-top: 20px; /* Abstand über dem Button */
+    border-radius: 16px;
+}
+
+/* Stiländerungen, wenn der Mauszeiger über dem Button ist */
+button:hover {
+    background-color: #0077B6; /* Ändere die Hintergrundfarbe im Hover-Zustand */
+}
